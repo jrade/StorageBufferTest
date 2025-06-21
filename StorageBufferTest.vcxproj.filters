@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Pch.cpp" />
+    <ClCompile Include="TestItemRenderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pch.h" />
+    <ClInclude Include="TestItemRenderer.h" />
+    <ClInclude Include="TestItem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{dcbbacf1-003e-4f2c-b169-ddd8a068d43c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Resources\App.qrc">
+      <Filter>Resources</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BakeShaders.bat">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\Main.qml">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\Simple.frag">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\Simple.vert">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>

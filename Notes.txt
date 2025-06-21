@@ -1,0 +1,15 @@
+
+The program tests using storage buffers with graphics pipelines.
+The program renders 4 quads (one red, one yellow, one green and one blue).
+The programs seems to work with OpenGL, Vulkan and D3D12.
+With D3D11 the creation of the pipeline fails with the error message
+	Failed to create vertex shader: COM error 0x80070057: The parameter is incorrect.
+
+All testing was done with Windows 11, Visual Studio 2022, Qt 6.9.1.
+I tested both with an NVIDIA GeForce and an Intel Iris GPU; the results where the same.
+
+The program can be downloaded from
+https://github.com/jrade/StorageBufferTest
+It is a Visual Studio 2022 project.
+Bake the shaders with Resources/BakeShaders.bat.
+Select the RHI backend in Main.cpp.

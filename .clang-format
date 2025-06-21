@@ -1,0 +1,35 @@
+---
+
+BasedOnStyle: WebKit
+Language: Cpp
+Standard: c++20
+
+AlignAfterOpenBracket: AlwaysBreak
+BreakTemplateDeclarations: MultiLine
+BreakBeforeBraces: Stroustrup
+ColumnLimit: 120
+Cpp11BracedListStyle: true
+FixNamespaceComments: true
+InsertNewlineAtEOF: true
+SpaceAfterTemplateKeyword: false
+SpaceBeforeCpp11BracedList: false
+SpaceInEmptyBlock: false
+
+IncludeBlocks: Regroup
+IncludeCategories:
+  - Regex: '^"Pch.h"'
+    Priority: -1
+  - Regex: '^"\.\./Tools/.*"'
+    Priority: 1
+    SortPriority: 1
+  - Regex: '^"\.\./QjrTools/.*"'
+    Priority: 1
+    SortPriority: 2
+  - Regex: '^"\.\./Core/.*"'
+    Priority: 1
+    SortPriority: 3
+  - Regex: '^".*"'
+    Priority: 1
+    SortPriority: 4
+
+...

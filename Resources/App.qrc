@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="App">
+        <file>Main.qml</file>
+        <file>Qsb/Simple.vert.qsb</file>
+        <file>Qsb/Simple.frag.qsb</file>
+    </qresource>
+</RCC>
